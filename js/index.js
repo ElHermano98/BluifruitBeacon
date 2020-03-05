@@ -85,16 +85,7 @@ function openBrowser(url) {
    var ref = cordova.InAppBrowser.open(url, target, options);
 }
 
-function test2(){
-	var url1='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';
-	openBrowser(url1);
-}
 
-function openBrowser(url1) {
-   var target = '_blank';
-   var options = "location=no"
-   var ref = cordova.InAppBrowser.open(url, target, options);
-}
 
 
 
