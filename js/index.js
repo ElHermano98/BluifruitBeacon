@@ -51,20 +51,11 @@ function refreshDeviceList(){
 		ble.scan([blue.serviceUUID], 5, onDiscoverDevice, onError);
 	}
 }
-function onDiscoverDevice(device){
-	//Make a list in html and show devises
-	if(device.name == "HERMAN"){
-		/*
-		var listItem = document.createElement('li'),
-		html = device.name+ "," + device.id;
-		listItem.innerHTML = html;
-		document.getElementById("bleDeviceList").appendChild(listItem);
-		*/
-		test()
+
 
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
-	if(device.name == "MARTIN"){
+	if(device.name == "MARTIN, HERMAN"){
 		/*
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
