@@ -64,7 +64,7 @@ function onDiscoverDevice(device){
 		*/
 		test()		
 	}
-	if(device.name2 == "HERMAN"){
+	if(device.name == "HERMAN"){
 		/*
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
