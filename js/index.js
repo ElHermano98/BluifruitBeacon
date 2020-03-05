@@ -52,10 +52,19 @@ function refreshDeviceList(){
 	}
 }
 
-
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
-	if(device.name == "MARTIN", "HERMAN"){
+	if(device.name == "HERMAN"){
+		/*
+		var listItem = document.createElement('li'),
+		html = device.name+ "," + device.id;
+		listItem.innerHTML = html;
+		document.getElementById("bleDeviceList").appendChild(listItem);
+		*/
+		test1()
+function onDiscoverDevice(device){
+	//Make a list in html and show devises
+	if(device.name == "MARTIN"){
 		/*
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
@@ -75,6 +84,9 @@ function onError(reason)  {
 
 function test(){
 	var url='https://api.thingspeak.com/update?api_key=XFKFORMIUPKKREYE&field1=1';	
+	openBrowser(url);
+	function test1(){
+	var url='https://api.thingspeak.com/update?api_key=XFKFORMIUPKKREYE&field1=2';	
 	openBrowser(url);
 }
 
