@@ -86,7 +86,7 @@ function openBrowser(url) {
 }
 
 function test2(){
-	var url1='xxx';
+	var url1='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';
 	openBrowser(url1);
 }
 
