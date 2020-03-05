@@ -74,7 +74,7 @@ function onError(reason)  {
 
 
 function test(){
-	var url='https://api.thingspeak.com/update?api_key=XFKFORMIUPKKREYE&field1=1';	
+	var url='https://api.thingspeak.com/update?api_key=XFKFORMIUPKKREYE&field1=MARTIN';	
 	openBrowser(url);
 }
 
