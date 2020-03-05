@@ -62,7 +62,7 @@ function onDiscoverDevice(device){
 		listItem.innerHTML = html;
 		document.getElementById("bleDeviceList").appendChild(listItem);
 		*/
-		tes()
+		test()
 	}
 }
 
@@ -70,11 +70,11 @@ function onDiscoverDevice(device){
 function onError(reason)  {
 	alert("ERROR: " + reason); // real apps should use notification.alert
 }
-
-function tes(){
-	var urlp='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=1';
+function test1(){
+	var urlp='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';	
 	openBrowser(urlp);
 }
+
 
 function test(){
 	var url='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=1';	
@@ -82,10 +82,10 @@ function test(){
 }
 
 
-function openBrowser(url) {
+function openBrowser(urlp) {
    var target = '_blank';
    var options = "location=no"
-   var ref = cordova.InAppBrowser.open(url, target, options);
+   var ref = cordova.InAppBrowser.open(urlp, target, options);
 }
 
 
