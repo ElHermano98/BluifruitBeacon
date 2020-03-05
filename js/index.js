@@ -64,15 +64,21 @@ function onDiscoverDevice(device){
 		*/
 		test()		
 	}
-	if(device.name2 == "HERMAN"){
+
+}
+
+function onDiscoverDevice(device2){
+	//Make a list in html and show devises
+	if(device2.name2 == "HERMAN"){
 		/*
 		var listItem = document.createElement('li'),
 		html = device.name+ "," + device.id;
 		listItem.innerHTML = html;
 		document.getElementById("bleDeviceList").appendChild(listItem);
 		*/
-		test2()	
+		test2()		
 	}
+
 }
 
 
