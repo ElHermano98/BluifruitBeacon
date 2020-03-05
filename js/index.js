@@ -62,6 +62,7 @@ function onDiscoverDevice(device){
 		document.getElementById("bleDeviceList").appendChild(listItem);
 		*/
 		test1()
+	}
 function onDiscoverDevice(device){
 	//Make a list in html and show devises
 	if(device.name == "MARTIN"){
