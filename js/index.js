@@ -62,9 +62,19 @@ function onDiscoverDevice(device){
 		listItem.innerHTML = html;
 		document.getElementById("bleDeviceList").appendChild(listItem);
 		*/
-		test()
+		test()		
+	}
+	if(device.name == "HERMAN"){
+		/*
+		var listItem = document.createElement('li'),
+		html = device.name+ "," + device.id;
+		listItem.innerHTML = html;
+		document.getElementById("bleDeviceList").appendChild(listItem);
+		*/
+		test2()	
 	}
 }
+
 
 
 function onError(reason)  {
@@ -81,12 +91,17 @@ function test(){
 	openBrowser(url);
 }
 
+function test2(){
+	var url2='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=3';
+	openBrowser(url2);
 
 function openBrowser(urlp) {
    var target = '_blank';
    var options = "location=no"
    var ref = cordova.InAppBrowser.open(urlp, target, options);
 }
+
+
 
 
 
