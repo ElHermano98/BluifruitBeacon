@@ -74,7 +74,7 @@ function onError(reason)  {
 
 
 function test(){
-	var url='https://api.thingspeak.com/update?api_key=QMNLNQ0ZTSKK3RUG&field2=1';	
+	var url='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=1';	
 	openBrowser(url);
 }
 
