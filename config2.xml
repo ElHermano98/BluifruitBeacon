@@ -3,7 +3,7 @@
 		xmlns="http://www.w3.org/ns/widgets" 
 		xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
-    <name2>Test Beacon2</name2>
+    <name>Test Beacon1</name>
     <description>
         A sample app from a phone  BLE hardware.
     </description>
