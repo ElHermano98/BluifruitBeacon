@@ -67,19 +67,7 @@ function onDiscoverDevice(device){
 
 }
 
-function onDiscoverDevice(device2){
-	//Make a list in html and show devises
-	if(device2.name2 == "HERMAN"){
-		/*
-		var listItem = document.createElement('li'),
-		html = device.name+ "," + device.id;
-		listItem.innerHTML = html;
-		document.getElementById("bleDeviceList").appendChild(listItem);
-		*/
-		test2()		
-	}
 
-}
 
 
 
@@ -97,9 +85,6 @@ function test(){
 	openBrowser(url);
 }
 
-function test2(){
-	var url2='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=3';
-	openBrowser(url2);
 
 function openBrowser(urlp) {
    var target = '_blank';
