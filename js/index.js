@@ -74,7 +74,7 @@ function onError(reason)  {
 
 
 function test(){
-	var url='https://placering.000webhostapp.com';	
+	var url='https://api.thingspeak.com/update?api_key=XFKFORMIUPKKREYE&field1=1';	
 	openBrowser(url);
 }
 
