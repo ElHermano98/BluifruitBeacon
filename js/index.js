@@ -62,7 +62,7 @@ function onDiscoverDevice(device){
 		listItem.innerHTML = html;
 		document.getElementById("bleDeviceList").appendChild(listItem);
 		*/
-		test()
+		tes()
 	}
 }
 
@@ -71,7 +71,10 @@ function onError(reason)  {
 	alert("ERROR: " + reason); // real apps should use notification.alert
 }
 
-
+function tes(){
+	var urlp='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=1';
+	openBrowser(urlp);
+}
 
 function test(){
 	var url='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=1';	
