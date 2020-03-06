@@ -88,12 +88,12 @@ function test1(){
 
 
 function test(){
-	var url='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=1';	
+	var url='https://api.thingspeak.com/update?api_key=3YNM0GH60LRYVWDB&field1=HERMAN';	
 	openBrowser(url);
 }
 
 function test2(){
-	var url2='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';
+	var url2='https://api.thingspeak.com/update?api_key=3YNM0GH60LRYVWDB&field1=MARTIN';
 	openBrowser(url2);
 }
 
