@@ -53,8 +53,7 @@ function refreshDeviceList(){
 }
 
 
-function onDiscoverDevice(device){
-	//Make a list in html and show devises
+function onDiscoverDevice(device){	
 	if(device.name == "HERMAN"){
 		/*
 		var listItem = document.createElement('li'),
