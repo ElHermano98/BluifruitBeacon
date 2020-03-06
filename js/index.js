@@ -93,7 +93,7 @@ function test(){
 	openBrowser(url);
 }
 
-funtion test2(){
+function test2(){
 	var url2='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';
 	openBrowser(url2);
 }
