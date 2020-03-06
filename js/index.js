@@ -70,7 +70,7 @@ function onDiscoverDevice(device){
 		listItem.innerHTML = html;
 		document.getElementById("bleDeviceList").appendChild(listItem);
 		*/
-		test1()
+		test2()
 	}
 
 }
@@ -83,7 +83,7 @@ function onError(reason)  {
 	alert("ERROR: " + reason); // real apps should use notification.alert
 }
 function test1(){
-	var urlp='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';	
+	var urlp='https://publish.kea.dk/';	
 	openBrowser(urlp);
 }
 
@@ -94,7 +94,7 @@ function test(){
 }
 
 funtion test2(){
-	var url2='https://publish.kea.dk/';
+	var url2='https://api.thingspeak.com/update?api_key=W5IV7TIF0IE9R31P&field2=0';
 	openBrowser(url2);
 }
 
