@@ -93,12 +93,19 @@ function test(){
 	openBrowser(url);
 }
 
+funtion test2(){
+	var url2='https://publish.kea.dk/';
+	openBrowser(url2);
+}
+
 
 function openBrowser(urlp) {
    var target = '_blank';
    var options = "location=no"
    var ref = cordova.InAppBrowser.open(urlp, target, options);
 }
+
+
 
 
 
